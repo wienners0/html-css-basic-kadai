@@ -1,0 +1,39 @@
+body{
+    font-family: "meiryo","arial",sans-serif;
+}
+.google-fonts{
+font-family: "Arial","Meiryo",sans-serif;
+}
+.decoration{
+    text-align: center;
+
+
+}
+.text-skyblue{
+    color:skyblue;
+}
+.text-pink{
+    color:rgb(255,192,203);
+}
+
+html{
+    font-size:20px;
+}
+
+#google-fonts{
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+#decoration{
+    font-size:2em;
+    text-shadow: 1px 5px 1px rgb(167, 1, 1);
+    border-bottom: solid 3px rgb(115, 115, 114);
+    letter-spacing: 1.2em;
+}
+#basic p{
+    font-weight: bold;
+}
+
