@@ -1,0 +1,178 @@
+body {
+  color: black;
+  background-color: white;
+  font-family: "Noto Sans JP", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+
+/*PC用ヘッダー*/
+
+.header-pc {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+   max-width: 960px;
+   margin: 0 auto ;
+
+}
+
+.nav-pc ul {
+  display: flex;
+}
+
+.nav-pc li {
+
+  margin: 10px;
+  list-style: none;
+  display: flex;
+  font-weight: 600
+}
+
+.home a {
+  color: black;
+  
+   font-size: 34px;
+  text-decoration: none;
+  border: black 1px solid;
+  padding: 0px 20px 0px 20px;
+}
+
+
+.nav-pc a {
+  text-decoration: none;
+  color: black;
+  font-size: 34px;
+  align-items: center;
+}
+
+/*スマホ用ヘッダー*/
+
+
+/*PC用main*/
+.main-img img {
+  object-fit: contain;
+  width: auto;
+  max-width: 100%;
+}
+
+
+
+/* about */
+.about-title {
+  font-size: 34px;
+  text-align: center;
+  font-weight: bold;
+
+}
+
+#about {
+  display: flex;
+   align-items: center;
+  flex-direction: column;
+   margin-top: 50px;
+}
+#about .about-center{
+  display: flex;
+
+}
+#about img {
+  border-radius: 150px;
+  margin-right: 100px;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+ 
+}
+.about-list li{
+  font-size: 18px;
+
+}
+
+/* メディアクエリ */
+@media screen and (max-width: 767px) {
+
+  .nav-pc a{
+    font-size: 21px;
+  }
+  .home a{
+    font-size: 28px;
+  }
+  .menu{
+    margin: 18px 0;
+    padding: 0;
+  }
+    #about .about-center {
+        display: block;
+     }
+    #about .about-center img {
+        display: block;
+        margin: 0 auto 20px; 
+    }
+
+    #works .works-div {
+      display: block;
+      justify-content: center;
+   }
+   .about-title{
+    text-align: center;
+   }
+  .works-div div{
+    justify-content: center;
+   }
+   #works .works-div img{
+    width: 100%;
+    height: 100%;
+
+   }
+   .works-sentence{
+    text-align: center;
+    
+   }
+   .header-pc{
+    margin: 20px 0px;
+   }
+   #pc-disabled{ 
+    display: none;
+
+   }
+  }
+
+/*works*/
+
+.works-title{
+  font-size: 34px;
+  text-align: center;
+  font-weight: bold;
+ }
+
+.works-div{
+  display: flex;
+   justify-content: center;
+ }
+
+.works-text{
+   font-size: 18px;
+  margin: 0 10px;
+  padding: 0 0 60px;
+
+}
+.works-text img{
+  width: 240px;
+  height: 170px;
+  margin: 0;
+}
+
+.works-sentence{
+  font-size: 18px;
+  margin: 0;
+}
+
+
+/*フッター*/
+.footer{
+text-align: center;
+}
